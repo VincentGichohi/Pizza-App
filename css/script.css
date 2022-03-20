@@ -1,0 +1,11 @@
+.header {
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    left: 35%;
+    top: 30%;
+}
+
+.first {
+    height: 10px;
+}
