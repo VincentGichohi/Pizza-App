@@ -11,21 +11,86 @@
     <title>Pizza App</title>
 </head>
 <body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">MUO</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li class="services">
+        <a href="/">Services</a>
+        <!-- DROPDOWN MENU -->
+        <ul class="dropdown">
+        <li><a href="/">Dropdown 1 </a></li>
+        <li><a href="/">Dropdown 2</a></li>
+        <li><a href="/">Dropdown 2</a></li>
+        <li><a href="/">Dropdown 3</a></li>
+        <li><a href="/">Dropdown 4</a></li>
+        </ul>
+        </li>
+        <li><a href="/">Pricing</a></li>
+        <li><a href="/">Contact</a></li>
+        </div>
+        </ul>
+    </nav>
     <div class="header">
-        <h1>Welcome to the pizza page!</h1>
+        <h1>YUMMY PIZZA</h1>
     </div>
-    <div class="detais">
-        <form action="">
-            <div class="container">
-                
-            </div>
-        </form>
-    </div>
+    <form id="form" action="">
+        <h2 id="content">PLease fill in the form</h2>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Pizza Size</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Choose the Pizza Size...</option>
+              <option value="1">Small</option>
+              <option value="2">Medium</option>
+              <option value="3">Large</option>
+            </select>
+          </div>
+
+          <h2>Would You Like Some Crusts?</h2>
+          <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Add some crusts...</option>
+              <option value="1">Crispy</option>
+              <option value="2">Stuffed</option>
+              <option value="3">Glutten-free</option>
+            </select>
+            <label class="input-group-text" for="inputGroupSelect02">Options</label>
+          </div>
+          
+          <option selected>Add some crusts...</option>
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+              <option selected>Choose...</option>
+              <option value="1">Neapolitan Crust</option>
+              <option value="2">New York Crust</option>
+              <option value="3">St. Louis Crust</option>
+              <option value="4">Sicilian Crust</option>
+              <option value="5">Pan Pizza Crust</option>
+            </select>
+          </div>
+          
+          <div class="input-group">
+            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+          </div>
+    </form>
     <div class="first">
         <img src="images/pizza1.jpg" class="img-fluid" alt="Responsive image">
-        <img src="images/pizza2.jpg" class="img-fluid" alt="Responsive image">
     </div>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
