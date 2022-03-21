@@ -15,15 +15,15 @@
         <h1>YUMMY PIZZA</h1>
         <p>Welcome to Moto Pizza. A place where all your cravings are met with pure excelence.</p>
     </div>
-    <h1 id="order">Order here for finger licking taste!</h1>
 
-        <img src="images/pizza4.jpg" class="img-fluid" alt="Responsive image">
+        <!-- <img src="images/pizza4.jpg" class="img-fluid" alt="Responsive image"> -->
 
+        <h1 id="order">Order here for finger licking taste!</h1>
     <div class="row">
         <div class="col-lg-6">
             <form id="form" action="">
+                <label for="type">Pizza Flavour:</label><br>
                 <select class="form-select" aria-label="Default select example">
-                    <label for="type">Pizza Flavour:</label><br>
                     <option selected>Select the type of Pizza..</option>
                     <option value="1">Ckicken Hawaiian</option>
                     <option value="2">Cheese Burger</option>
@@ -32,6 +32,17 @@
                     <option value="5">Chicken Macon BBQ</option>
                     <option value="6">Spicy Boerewors</option>
                 </select><br>
+
+                <label for="type">Pizza Size:</label><br>
+                <select class="form-select" aria-label="Default select example">
+                    <label for="type">Pizza Flavour:</label><br>
+                    <option selected>Select the size of Pizza..</option>
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                </select><br>
+
+                <label for="type">Toppings:</label><br>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Would you like some toppings?...</option>
                     <option value="1">Roasted Tomatoes</option>
@@ -42,6 +53,8 @@
                     <option value="6">Roasted Red Pepper</option>
                     <option value="7">Roasted Butternut Squash</option>
                   </select><br>
+
+                  <label for="type">Crusts:</label><br>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>Choose the crusts you would like...</option>
                     <option value="1">Neapoitan Crust</option>
@@ -51,7 +64,8 @@
                     <option value="5">Chicago-Style Deep Dish Crust</option>
                     <option value="6">Pan Pizza Crust</option>
                   </select>
-            </form>
+            </form><br>
+            <button type="button" class="btn btn-primary">Submit</button>
         </div>
     </div>
     <div class="container-fluid">
