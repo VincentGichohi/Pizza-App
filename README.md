@@ -1,5 +1,5 @@
 # Pizza App
-#### {Brief description of application}, {Date of current version}
+#### A Pizza Application to sort all your needs, 21/03/2022
 #### By **Vincent Gichohi**
 ## Description
 For all Pizza lovers, this application will easen the hustle to go physically to the store in order to place your order. With just one click of a button, you'll have it delivered right to your door step.
