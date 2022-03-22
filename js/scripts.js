@@ -19,31 +19,10 @@
       })
   })()
 
-//   var username = document.getElementById("username");
-//   var pass = document.getElementById("pass");
-//   pass.onfocus = function(){
-//   if(pass.value=="ENTER PASSWORD"){
-//   pass.value="";
-//   }
-//   };
-//   username.onfocus = function(){
-//   if(this.value=="ENTER USERNAME"){
-//   this.value="";
-//   }
-//   };
-//   pass.onblur = function(){
-//   if(this.value==""){
-//   pass.value="ENTER PASSWORD";
-//   }
-//   };
-//   username.onblur = function(){
-//   if(this.value==""){
-//   this.value="ENTER USERNAME";
-//   }
-//   };
-
-var pizza = ['small', 'medium', 'large']
-
+var pizza = document.getElementsByClassName('size');
+var toppings = document.getElementsByClassName('toppings');
+var crust = document.getElementsByClassName('crust');
+var totalOrders = document.getElementById('submit');
 //a constructor that saves the flavour of pizza, the size and the price
 function PizzaDetails(pizzaFlavour, pizzaSize, pizzaPrice) {
     this.pizzaFlavour = pizzaFlavour;
