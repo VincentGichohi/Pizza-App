@@ -162,7 +162,7 @@ $(function () {
           .get();
       // validation for all fields
       if (!selectedPizzaName || !selectedSize || !selectedCrust) {
-          $("#error").text("** Please select a pizza, size and crust 🙂** ");
+          $("#error").text("** Please select a pizza, size and crust** ");
           return;
       } else {
           $("#error").text("");
@@ -268,7 +268,7 @@ $(function () {
                   console.log(cart);
                   $("#select-delivery-method").hide();
                   $(".delivery-head").append(`
-                  <div class="alert alert-success" role="alert">Hello ${customerName}. Hello. Order successfully placed. Your order will be delivered to your location(${customerLocation})🙂</div>
+                  <div class="alert alert-success" role="alert">Hey ${customerName}Order successfully placed.</div>
                       <div class="d-flex justify-content-between">
                           <div>
                               <h5>Order Summary </h5>
@@ -313,7 +313,7 @@ $(function () {
                   console.log(getTotalPlusDeliveryFee);
                   $("#select-delivery-method").hide();
                   $(".delivery-head").append(`
-                  <div class="alert alert-success" role="alert">Hello. Order successfully placed. Your order will be ready for pick up in an hour 🙂</div>
+                  <div class="alert alert-success" role="alert">Order successfully placed.</div>
                       <div class="d-flex justify-content-between">
                           <div>
                               <h5>Order Summary </h5>
