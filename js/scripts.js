@@ -268,7 +268,11 @@ $(function () {
                   console.log(cart);
                   $("#select-delivery-method").hide();
                   $(".delivery-head").append(`
+<<<<<<< HEAD
                   <div class="alert alert-success" role="alert">Hello ${customerName}Order successfully placed.</div>
+=======
+                  <div class="alert alert-success" role="alert">Hey ${customerName}Order successfully placed.</div>
+>>>>>>> gh-pages
                       <div class="d-flex justify-content-between">
                           <div>
                               <h5>Order Summary </h5>
