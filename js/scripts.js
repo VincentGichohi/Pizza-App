@@ -239,7 +239,7 @@ $(function () {
       // check if the user has selected the radio button
       const selectd = $("input[name='deliveryMethod']:checked");
       if (selectd.val() == undefined) {
-          $(".delivery-option").html("<p class='text-danger'>**delivery method **</p>");
+          $(".delivery-option").html("<p class='text-danger'>**Please select a delivery method **</p>");
           return;
       } else {
           $(".delivery-option").text("");
